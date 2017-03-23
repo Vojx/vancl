@@ -1,0 +1,947 @@
+.top-bg{
+    width: 100%;
+    height: 33px;
+    background: url("../images/top_bg.jpg") repeat-x;
+}
+.top-bg .inner{
+    height: 33px;
+    line-height: 32px;
+}
+.top-bg .inner .login-reg{
+    color: #a10000;
+}
+.top-bg .inner .login-reg a{
+    color: #a10000;
+}
+.top-bg .inner .top-a{
+    padding-left: 15px;
+}
+/*顶部右侧*/
+.top-bg .inner .top-right .li-r{
+    float: right;
+}
+.top-bg .inner .top-right li.tel{
+    color: #a10000;
+    font-weight: 700;
+    font-family: tahoma;
+    background:url("../images/spritesbg.png") no-repeat -187px 6px;
+    padding-left: 20px;
+}
+.top-bg .inner .top-right .shoujifanke{
+    background:url("../images/spritesbg.png") no-repeat -115px -21px;
+    width: 56px;
+    height: 33px;
+    padding-right: 16px;
+}
+.top-bg .inner .top-right .en a{
+    padding-right: 15px;
+}
+.top-bg .inner .top-right li.has-hide{
+    width: 70px;
+    height: 18px;
+    /*background-color: pink;*/
+    line-height: 18px;
+    margin-right: 5px;
+    position: relative;
+    top: 7px;
+    left: 0;
+}
+.top-bg .inner .top-right li.has-hide .menu-a{
+    display: block;
+    width: 65px;
+    height: 18px;
+    background:url("../images/spritesbg.png") no-repeat 58px 8px;
+    padding-left: 5px;
+}
+.top-bg .inner .top-right li.has-hide a.cur{
+    color: #a10000;
+    background:url("../images/spritesbg.png") no-repeat 58px -12px;
+}
+.top-bg .inner .top-right li.cur{
+    background: url("../images/spritesbg.png") no-repeat 0 -95px;
+}
+.top-bg .inner .top-right .li-r .hide-box{
+    width: 70px;
+    position: absolute;
+    z-index: 9999;
+    display: none;
+}
+.top-bg .inner .top-right .li-r .hide-box .hide-ul{
+    width: 68px;
+    border-left:1px solid #a10000;
+    border-right:1px solid #a10000;
+    padding-top: 3px;
+    background-color: #fff;
+}
+.top-bg .inner .top-right .li-r .hide-box .hide-ul li{
+    padding-left: 7px;
+}
+.top-bg .inner .top-right .li-r .hide-box .hide-ul a{
+    padding-left: 7px;
+    background:url("../images/spritesbg.png") no-repeat -385px 5px;
+}
+.top-bg .inner .top-right .li-r .hide-box .bottom{
+    width: 70px;
+    height: 5px;
+    _font-size:0;
+    background:url("../images/spritesbg.png") no-repeat 0 -120px;
+}
+/*顶部右侧结束*/
+
+/*顶部区域结束*/
+
+
+/*主体区域*/
+.main{
+    position: relative;
+}
+.main .logo-box{
+    width: 100%;
+    height: 118px;
+    position: relative;
+}
+.main .logo-box .logo{
+    width: 470px;
+    height: 61px;
+    background:url("../images/spritesbg.png") no-repeat 0 -648px;
+    position: absolute;
+    top: 23px;
+    left: 0;
+}
+.main .logo-box ul.on-search{
+    height: 22px;
+    position: absolute;
+    top: 13px;
+    left: 497px;
+}
+.main .logo-box ul.on-search li{
+    float: left;
+    width: 58px;
+    height: 21px;
+    background:url("../images/spritesbg.png") no-repeat -115px -54px;
+    text-align: center;
+    line-height: 21px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.main .logo-box ul.on-search li.no-bg{
+    background: none;
+    color: #333333;
+}
+.main .logo-box .search{
+    width: 508px;
+    height: 25px;
+    position: absolute;
+    top: 34px;
+    left: 497px;
+    background-color: pink;
+}
+.main .logo-box .search .con{
+    width: 433px;
+    height: 25px;
+    background:url("../images/spritesbg.png") no-repeat 0 -162px;
+    float: left;
+    line-height: 25px;
+    color: #A599B2;
+    text-indent: 8px;
+}
+.main .logo-box .search .sub{
+    width: 74px;
+    height: 25px;
+    background:url("../images/spritesbg.png") no-repeat -115px -81px;
+    float: left;
+}
+.main .logo-box .tags{
+    width: 276px;
+    height: 12px;
+    position: absolute;
+    top: 67px;
+    left: 497px;
+}
+.main .logo-box .tags a{
+    float: left;
+    margin-right: 7px;
+}
+
+/*购物车开始*/
+.main .logo-box .car-shop{
+    width: 157px;
+    height: 35px;
+    background: url("../images/spritesbg.png") no-repeat right -472px;
+    position: absolute;
+    top: 29px;
+    right: 0;
+}
+.main .logo-box .car-shop.cur{
+    background: url("../images/spritesbg.png") no-repeat 0 -209px;
+}
+.main .logo-box .car-shop .num{
+    position: absolute;
+    top: 11px;
+    left: 45px;
+    padding-right: 30px;
+    background: url("../images/spritesbg.png") no-repeat right 5px;
+}
+.main .logo-box .car-shop .num span{
+    color: #a10000;
+    font-weight: 700;
+    font-family: SimSun;
+    padding: 0 6px;
+}
+.main .logo-box .car-shop .hide-box{
+    position: absolute;
+    top: 34px;
+    left: 0;
+    display: none;
+}
+.main .logo-box .car-shop .hide-box p{
+    width: 155px;
+    border-left: 1px solid #A20303;
+    border-right: 1px solid #A20303;
+    text-align: center;
+}
+.main .logo-box .car-shop .hide-box .bottom{
+    width: 157px;
+    height: 6px;
+    _font-size:0;
+    background: url("../images/spritesbg.png") no-repeat -162px -201px;
+}
+/*购物车开始结束*/
+
+
+/*凡客达人，凡客旗下*/
+.main .logo-box .fankedaren{
+    width: 101px;
+    height: 27px;
+    background: url(../images/fankedaren.jpg) no-repeat;
+    position: absolute;
+    top: 91px;
+    right: 313px;
+}
+.main .logo-box .fankeqixia-box{
+    width: 310px;
+    height: 30px;
+    /*这里的技巧性比较强*/
+    background: url("../images/fankeqixia.jpg") no-repeat 0 3px;
+    position: absolute;
+    top: 88px;
+    right: 0;
+}
+.main .logo-box .fankeqixia-box .fankeqixia{
+    width: 150px;
+    height: 30px;
+    background: url("../images/spritesbg.png") no-repeat -253px -116px;
+    float: left;
+    position: relative;
+    z-index: 1000;
+}
+.main .logo-box .fankeqixia-box .fankeqixia.cur{
+    background: url("../images/spritesbg.png") no-repeat -252px -366px;
+}
+.main .logo-box .fankeqixia-box .guojidapai{
+    float: left;
+    line-height: 34px;
+    font-size: 14px;
+    padding-left: 13px;
+}
+/*凡客旗下隐藏的盒子*/
+
+.m2 .hide-box{
+    width: 621px;
+    position: absolute;
+    top: 29px;
+    right: 0;
+    z-index: 999;
+    display: none;
+}
+.m2 .hide-box .top{
+    width: 621px;
+    height: 5px;
+    background: url("../images/spritesbg.png") no-repeat 0 -405px;
+}
+.m2 .hide-box .middle{
+    width: 619px;
+    border-left: 1px solid #a10000;
+    border-right: 1px solid #a10000;
+    background-color: #fff;
+    padding-top: 10px;
+    overflow: hidden;
+}
+.m2 .hide-box .bottom{
+    height: 5px;
+    background: url("../images/spritesbg.png") no-repeat 0 -414px;
+}
+.m2 .hide-box .middle .left-list{
+    width: 478px;
+    margin-left: 19px;
+    border-bottom: 1px dashed #B4B4B4;
+    overflow: hidden;
+    padding-bottom: 11px;
+    margin-bottom: 14px;
+    float: left;
+}
+.m2 .hide-box .middle .left-list .title{
+    width: 94px;
+    font-weight: 700;
+    color: #a10000;
+    float: left;
+}
+.m2 .hide-box .middle .left-list .list{
+    float: left;
+}
+.m2 .hide-box .middle .left-list .list li{
+    height: 22px;
+}
+.m2 .hide-box .middle .left-list .list a{
+    border-right: 1px dashed #EEE9E9;
+    padding: 0 9px;
+}
+.m2 .hide-box .middle .left-list .list .first-a{
+    padding-left: 0;
+}
+.m2 .hide-box .middle .left-list .list .last-a{
+    padding-right: 0;
+    border-right: 0;
+}
+
+.m2 .hide-box .middle .right{
+    float: right;
+}
+.m2 .hide-box .middle .right li a{
+    line-height: 27px;
+    color: #a10000;
+    background: url("../images/spritesbg.png") no-repeat -385px -14px;
+    padding-right: 16px;
+    padding-left: 7px;
+}
+
+/*凡客旗下隐藏的盒子结束*/
+
+/*凡客达人，凡客旗下结束*/
+
+/*红色导航条区域*/
+.main .nav-red{
+    height: 40px;
+    background-color: #a10000;
+    position: relative;
+}
+.main .nav-red .nav-list li{
+    float: left;
+    position: relative;
+}
+.main .nav-red .nav-list li a{
+    display: block;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 40px;
+    color: #fff;
+    padding: 0 14px;
+}
+.main .nav-red .nav-list li a:hover{
+    background-color: #700000;
+}
+.main .nav-red .nav-list li span{
+    width: 25px;
+    height: 13px;
+    position: absolute;
+}
+.main .nav-red .nav-list li span.new-ico{
+    background: url(../images/spritesbg.png) no-repeat -194px -139px;
+    top: -5px;
+    right: 0;
+}
+.main .nav-red .nav-list li span.hot-ico{
+    background: url(../images/spritesbg.png) no-repeat -212px -76px;
+    top: -4px;
+    right: 0;
+}
+.main .nav-red .xianshitemai{
+    width: 80px;
+    height: 21px;
+    background:url(../images/spritesbg.png) no-repeat right bottom;
+    position: absolute;
+    right: 8px;
+    top: 9px;
+}
+/*红色导航条区域结束*/
+
+/*灰色区域导航开始*/
+.main .nav-gray{
+    width: 100%;
+    height: 25px;
+    background-color: #F0F0F0;
+    margin-top: 2px;
+    position: relative;
+}
+.main .nav-gray .nav-left .list-menu{
+    float: left;
+    margin-right: 15px;
+}
+.main .nav-gray .nav-left .list-menu .list-a{
+    display: block;
+    font-size: 14px;
+    width: 48px;
+    height: 25px;
+    line-height: 25px;
+    padding-left:10px;
+    background:url(../images/spritesbg.png) no-repeat 44px -31px;
+}
+.main .nav-gray .nav-left .list-menu .list-a.cur{
+    background:url(../images/spritesbg.png) no-repeat 0 -370px;
+    position: relative;
+    z-index: 11;
+}
+.main .nav-gray .nav-left .list-menu .list-a.three{
+    width: 63px;
+    background-position: 59px -31px;
+}
+.main .nav-gray .nav-left .list-menu .list-a.three.cur{
+    background:url(../images/spritesbg.png) no-repeat 0 -62px;
+}
+.main .nav-gray .nav-left .list-menu .list-a.four{
+    width: 76px;
+    background-position: 72px -31px;
+}
+.main .nav-gray .nav-left .list-menu .list-a.four.cur{
+    background:url(../images/spritesbg.png) no-repeat -74px -370px;
+}
+
+/*灰色导航条隐藏部分*/
+.m2 .hide-box.menu2-left-hide{
+    left: 0;
+    top: 24px;
+    z-index: 10;
+}
+.m2 .hide-box.menu2-right-hide{
+    right: 0;
+    top: 24px;
+    z-index: 10;
+}
+.m2 .hide-box .middle .left-list .list a{
+    color: #333;
+    font-weight:lighter;
+}
+/*灰色导航条隐藏部分结束*/
+.main .nav-gray .nav-right{
+    position: absolute;
+    right: 10px;
+    top: 0;
+}
+.main .nav-gray a{
+    line-height: 25px;
+    font-weight: 700;
+    color: #a10000;
+    float: left;
+    padding-left: 29px;
+}
+/*灰色区域导航结束*/
+
+/*banner区域*/
+.main .banner{
+    height: 85px;
+    margin:10px 0;
+    background:url("../images/ad1.png") no-repeat;
+    cursor: pointer;
+}
+/*banner区域结束*/
+
+/*特卖会+轮播图*/
+.main .flash-box{
+    width: 100%;
+    height:450px;
+}
+.main .flash-box .temai{
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+    float: left;
+    margin-right: 10px;
+}
+.main .flash-box .temai td{
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+/*轮播图开始*/
+.main .flash-box .carousel-ad{
+    float: left;
+    height:420px;
+    width: 750px;
+    position: relative;
+}
+.main .flash-box .carousel-ad img{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.main .flash-box .carousel-ad ul{
+    width: 170px;
+    height: 22px;
+    position: absolute;
+    z-index: 2;
+    bottom: 8px;
+    left: 50%;
+    margin-left: -66px;
+}
+.main .flash-box .carousel-ad ul li{
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 4px;
+    line-height: 18px;
+    text-align: center;
+    background-color: #fff;
+    opacity: 0.7;
+    filter:alpha(opacity=70);
+    color: #a10000;
+    font-weight: 700;
+    border: 1px solid #fff;
+    cursor: pointer;
+    font-family: "SimSun", "宋体";
+}
+.main .flash-box .carousel-ad ul li.cur{
+    color: #fff;
+    background-color: #a10000;
+    font-weight: bolder;
+}
+/*轮播图结束*/
+
+/*无缝滚动区域*/
+.main .flash-box .wufeng{
+    width: 750px;
+    float: right;
+    /*background-color: chartreuse;*/
+}
+.main .flash-box .wufeng .laba{
+    float: left;
+    width: 20px;
+    height: 30px;
+    background: url("../images/spritesbgcon.png") no-repeat -120px -94px;
+}
+.main .flash-box .wufeng .wufeng-text{
+    float: right;
+    width: 710px;
+    height: 30px;
+    /*background-color: red;*/
+    position: relative;
+    overflow: hidden;
+}
+.main .flash-box .wufeng .wufeng-text ul{
+    height: 30px;
+    position: absolute;
+}
+.main .flash-box .wufeng .wufeng-text ul li{
+    float: left;
+    /*background-color: red;*/
+}
+.main .flash-box .wufeng .wufeng-text ul li a{
+    line-height: 30px;
+    float: left;
+    background: url("../images/spritesbgcon.png") no-repeat -137px -129px;
+    padding-left: 24px;
+    padding-right: 38px;
+}
+.main .flash-box .wufeng .wufeng-text ul li a:hover{
+    color: #000;
+}
+/*无缝滚动区域结束*/
+
+/*特卖会+轮播图结束*/
+
+/*所有商品分类区域*/
+.main .fenlei-box{
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+    /*border-bottom: 5px solid green;*/
+}
+.main .fenlei-box .title{
+    width: 980px;
+    height: 36px;
+    border-bottom: 2px solid #a10000;
+    position: relative;
+}
+.main .fenlei-box .title{
+    height: 36px;
+    background: url("../images/spritesbgcon.png") no-repeat left 11px;
+}
+.main .fenlei-box .title .list-ul{
+    position: absolute;
+    right: 0;
+    top: 16px;
+}
+.main .fenlei-box .title .list-ul li{
+    float: right;
+    position: relative;
+}
+.main .fenlei-box .title .list-ul li a{
+    float: left;
+    padding-left: 27px;
+}
+.main .fenlei-box .title .list-ul li .hot-ico{
+    width: 21px;
+    height: 11px;
+    position: absolute;
+    top: -7px;
+    left: 71px;
+    background: url("../images/spritesbgcon.png") no-repeat 0 -28px;
+}
+/*分类区块*/
+.main .fenlei-box .fenlei-list{
+    height: 632px;
+    width: 979px;
+    border-left: 1px solid #DDDDDD;
+    border-bottom: 1px solid #DDDDDD;
+    float: left;
+}
+.main .fenlei-box .fenlei-list .list-box{
+    width: 326px;
+    height: 79px;
+    float: left;
+    position: relative;
+}
+.main .fenlei-box .fenlei-list .list-box .left{
+    width: 66px;
+    height: 79px;
+    background: url(../images/spritesbgcon.png) no-repeat 0 -53px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.main .fenlei-box .fenlei-list .list-box .left.l-cur{
+    background: url(../images/spritesbgcon.png) no-repeat 0 -132px;
+    z-index: 1;
+}
+.main .fenlei-box .fenlei-list .list-box .left.l-cur p{
+    color: #fff;
+}
+.main .fenlei-box .fenlei-list .list-box .left p{
+    height: 79px;
+    width: 59px;
+    text-align: center;
+    line-height: 79px;
+    font-weight: 700;
+    color: #333;
+}
+.main .fenlei-box .fenlei-list .list-box .right{
+    width: 266px;
+    height: 62px;
+    border-top: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #fff;
+    position: absolute;
+    top: 0;
+    left: 59px;
+    padding-top: 15px;
+}
+.main .fenlei-box .fenlei-list .list-box .right.r-cur{
+    border: 1px solid #A30001;
+    border-left: none;
+    background: #FFF2F2;
+}
+.main .fenlei-box .fenlei-list .list-box .right p{
+    height: 26px;
+    padding-left: 5px;
+}
+.main .fenlei-box .fenlei-list .list-box .right p a{
+    float: left;
+    padding-right: 7px;
+    padding-left: 9px;
+    border-right: 1px solid #EFEFEF;
+}
+.main .fenlei-box .fenlei-list .list-box .right p a.last{
+    border-right: none;
+    padding-right: 0;
+}
+/*分类区块结束*/
+
+/*分类区右边的小广告*/
+
+/*tab栏切换区域*/
+.main .fenlei-box .fenlei-right{
+    position: absolute;
+    top: 36px;
+    right: 0;
+    width: 210px;
+}
+.main .fenlei-box .fenlei-right .tab{
+    width: 208px;
+    height: 138px;
+    border: 1px solid #ddd;
+}
+.main .fenlei-box .fenlei-right .tab .list-title li{
+    float: left;
+}
+.main .fenlei-box .fenlei-right .tab .list-title li a{
+    float: left;
+    width: 104px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background: #E8E8E8;
+}
+.main .fenlei-box .fenlei-right .tab .list-title li.cur a{
+    font-weight: 700;
+    color: #a10000;
+    background: #FFFFFF;
+}
+.main .fenlei-box .fenlei-right .tab .content .list-l,
+.main .fenlei-box .fenlei-right .tab .content .list-r{
+    margin-top: 40px;
+    position: relative;
+}
+.main .fenlei-box .fenlei-right .tab .content .list-l li{
+    line-height: 24px;
+    padding-left: 15px;
+}
+.main .fenlei-box .fenlei-right .tab .content .list-l li a{
+    padding-left: 11px;
+    background: url("../images/spritesbgcon.png") no-repeat left -349px;
+}
+.main .fenlei-box .fenlei-right .tab .content .list-l li.first{
+    font-weight: 700;
+}
+.main .fenlei-box .fenlei-right .tab .content .list-r .list-1{
+    float: left;
+    padding-left: 18px;
+}
+.main .fenlei-box .fenlei-right .tab .content .list-r .list-1 a{
+    background: url("../images/spritesbgcon.png") no-repeat left -349px;
+    padding-left: 14px;
+    line-height: 25px;
+}
+.main .fenlei-box .fenlei-right .tab .content .list-r .list-2{
+    position: absolute;
+    top: 4px;
+    right: 18px;
+}
+.main .fenlei-box .fenlei-right .tab .content .list-r .list-2 li a{
+    float: right;
+    height: 25px;
+    color: #a10000;
+}
+.main .fenlei-box .fenlei-right .tab .content .list-r .list-2 li.last a{
+    color: #000;
+}
+/*tab栏切换区域结束*/
+.main .fenlei-box .fenlei-right .right-img{
+    float: right;
+    margin-top: 10px;
+}
+.main .fenlei-box .fenlei-right .right-img.change-size{
+    width: 100px;
+    height: 182px;
+}
+.main .fenlei-box .fenlei-right .right-img.last-img{
+    margin-right: 10px;
+}
+/*分类区右边的小广告结束*/
+
+/*所有商品分类区域结束*/
+
+/*新品速递标题区域*/
+.main .xpsd-title{
+    height: 38px;
+    width: 100%;
+    line-height: 38px;
+    margin: 10px 0;
+    border-bottom: 2px solid #a10000;
+    position: relative;
+}
+.main .xpsd-title .title{
+    float: left;
+    font-weight: 700;
+    color: #a10000;
+    font-size: 14px;
+}
+.main .xpsd-title .tags span{
+    float: left;
+    padding: 0 12px 0 20px;
+}
+.main .xpsd-title .tags a{
+    float: left;
+    padding-right: 23px;
+}
+.main .xpsd-title .more{
+    position: absolute;
+    right: 0;
+    background: url("../images/spritesbgcon.png") no-repeat 55px -303px;
+    padding-right:20px;
+}
+/*新品速递标题区域结束*/
+
+/*新品速递下的图片*/
+.main .xpsd-img-table{
+    border: 1px solid #ddd;
+    border-collapse: collapse;
+}
+.main .xpsd-img-table td{
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+/*新品速递下的图片结束*/
+
+/*凡客达人与我是凡客*/
+.main .faren-fanke .left{
+    float: left;
+    width: 595px;
+}
+.main .faren-fanke .right{
+    float: right;
+    width: 595px;
+    position: relative;
+}
+.main .faren-fanke .right ul{
+    position: absolute;
+    top: 59px;
+    right: 0;
+    border: 1px solid #ddd;
+    width: 208px;
+    height: 246px;
+    padding-top: 8px;
+}
+.main .faren-fanke .right ul li{
+    line-height: 29px;
+    padding-left: 15px;
+}
+.main .faren-fanke .right ul li a{
+    background: url(../images/spritesbgcon.png) no-repeat 0 -348px;
+    padding-left: 10px;
+}
+.main .semer{
+    padding: 10px 0;
+}
+/*凡客达人与我是凡客结束*/
+
+/*底部区域*/
+.footer{
+    height: 196px;
+    width: 100%;
+    border: 1px solid #ddd;
+    position: relative;
+}
+.footer .footer-list{
+    float: left;
+    padding-top: 15px;
+    padding-left: 31px;
+}
+.footer .footer-list dt{
+    width: 116px;
+    padding-left: 3px;
+    border-left: 3px solid #a10000;
+}
+.footer .footer-list dt a{
+    font-weight: 700;
+    font-size: 14px;
+}
+.footer .footer-list dd{
+    /*border: 1px solid #000;*/
+    width: 100px;
+    height: 20px;
+    line-height: 20px;
+}
+.footer .footer-list dd a{
+    padding-left: 8px;
+    color: #666;
+}
+.footer .tel{
+    height: 90px;
+    position: absolute;
+    top: 23px;
+    left: 925px;
+    padding-left: 75px;
+    border-left: 1px solid #a10000;
+}
+.footer .tel p{
+    line-height: 22px;
+}
+.footer .tel .cn {
+    font-weight: 700;
+}
+.footer .tel .cn span{
+    font-weight: lighter;
+}
+.footer .tel .tel-num{
+    color: #a10000;
+    font-weight: 700;
+    font-family: "SimSun", "宋体";
+    font-size: 14px;
+}
+.footer .footer-imgs{
+    width: 1198px;
+    height: 28px;
+    position: absolute;
+    left: 10px;
+    bottom: 21px;
+}
+.footer .footer-imgs a{
+    display: block;
+    width: 287px;
+    height: 39px;
+    background: #F8F8F8;
+    margin-right: 10px;
+    float: left;
+    padding-top: 10px;
+}
+.footer .footer-imgs a span{
+    display: block;
+    height: 28px;
+    background:url("../images/spritesbg.png") no-repeat;
+    margin: 0 auto;
+}
+.footer .footer-imgs .img1{
+    width: 124px;
+    background-position: 0 -573px;
+}
+.footer .footer-imgs .img2{
+    background-position: -223px -573px;
+}
+.footer .footer-imgs .img3{
+    background-position: 65px -605px;
+}
+.footer .footer-imgs .img4{
+    background-position: -220px -573px;
+}
+/*底部区域结束*/
+
+/*版权地界*/
+.main .copy{
+    width: 100%;
+    /*border: 1px solid #000;*/
+    text-align: center;
+    color: #999;
+    line-height: 50px;
+}
+.main .finish{
+    width: 510px;
+    height: 45px;
+    margin: 0 auto;
+    /*background-color: #666;*/
+}
+.main .finish a{
+    float: left;
+    background: url(../images/spritesbg.png) no-repeat 0 0;
+    margin-right: 10px;
+}
+.main .finish .one{
+    width: 112px;
+    height: 40px;
+    background-position: 0 -431px;
+}
+.main .finish .two{
+    width: 156px;
+    height: 45px;
+    background-position: 0 -478px;
+}
+.main .finish .three{
+    width: 96px;
+    height: 42px;
+    background-position: -3px -524px;
+}
+.main .finish .four{
+    width: 101px;
+    height: 42px;
+    background-position: -100px -524px;
+}
+/*版权地界结束*/
+
+/*主体区域结束*/
